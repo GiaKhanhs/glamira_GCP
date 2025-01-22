@@ -1,0 +1,32 @@
+[
+    {"name": "_id", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "time_stamp", "type": "INTEGER", "mode": "NULLABLE"},
+    {"name": "ip", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "user_agent", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "resolution", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "user_id_db", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "device_id", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "api_version", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "store_id", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "local_time", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "show_recommendation", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "current_url", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "referrer_url", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "email_address", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "collection", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "product_id", "type": "STRING", "mode": "NULLABLE"},
+    {
+      "name": "option",
+      "type": "RECORD",
+      "mode": "REPEATED",
+      "fields": [
+        {"name": "option_label", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "option_id", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "value_label", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "value_id", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "quality", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "quality_label", "type": "STRING", "mode": "NULLABLE"}
+      ]
+    }
+  ]
+  

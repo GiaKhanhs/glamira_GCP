@@ -1,0 +1,52 @@
+LEVEL    NAME       EXECUTION_ID  TIME_UTC                 LOG
+I        hello-gcs                2024-11-19 13:13:55.611  Default STARTUP TCP probe succeeded after 1 attempt for container "worker" on port 8080.
+I        hello-gcs                2024-11-19 13:10:17.262  Default STARTUP TCP probe succeeded after 1 attempt for container "worker" on port 8080.
+I        hello-gcs                2024-11-19 13:07:20.157  Default STARTUP TCP probe succeeded after 1 attempt for container "worker" on port 8080.
+E        hello-gcs                2024-11-19 13:05:31.612  Default STARTUP TCP probe failed 1 time consecutively for container "worker" on port 8080. The instance was not started.
+WARNING  hello-gcs                2024-11-19 13:05:31.531  Container called exit(1).
+E        hello-gcs                2024-11-19 13:05:31.382  Traceback (most recent call last):
+                                                             File "/layers/google.python.pip/pip/bin/functions-framework", line 8, in <module>
+                                                               sys.exit(_cli())
+                                                             File "/layers/google.python.pip/pip/lib/python3.10/site-packages/click/core.py", line 1157, in __call__
+                                                               return self.main(*args, **kwargs)
+                                                             File "/layers/google.python.pip/pip/lib/python3.10/site-packages/click/core.py", line 1078, in main
+                                                               rv = self.invoke(ctx)
+                                                             File "/layers/google.python.pip/pip/lib/python3.10/site-packages/click/core.py", line 1434, in invoke
+                                                               return ctx.invoke(self.callback, **ctx.params)
+                                                             File "/layers/google.python.pip/pip/lib/python3.10/site-packages/click/core.py", line 783, in invoke
+                                                               return __callback(*args, **kwargs)
+                                                             File "/layers/google.python.pip/pip/lib/python3.10/site-packages/functions_framework/_cli.py", line 37, in _cli
+                                                               app = create_app(target, source, signature_type)
+                                                             File "/layers/google.python.pip/pip/lib/python3.10/site-packages/functions_framework/__init__.py", line 289, in create_app
+                                                               spec.loader.exec_module(source_module)
+                                                             File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+                                                             File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+                                                             File "/workspace/main.py", line 2, in <module>
+                                                               from google.cloud import bigquery
+                                                             File "/layers/google.python.pip/pip/lib/python3.10/site-packages/google/cloud/bigquery/__init__.py", line 35, in <module>
+                                                               from google.cloud.bigquery.client import Client
+                                                             File "/layers/google.python.pip/pip/lib/python3.10/site-packages/google/cloud/bigquery/client.py", line 64, in <module>
+                                                               from google.cloud.bigquery import _job_helpers
+                                                             File "/layers/google.python.pip/pip/lib/python3.10/site-packages/google/cloud/bigquery/_job_helpers.py", line 24, in <module>
+                                                               from google.cloud.bigquery import job
+                                                             File "/layers/google.python.pip/pip/lib/python3.10/site-packages/google/cloud/bigquery/job/__init__.py", line 17, in <module>
+                                                               from google.cloud.bigquery.job.base import _AsyncJob
+                                                             File "/layers/google.python.pip/pip/lib/python3.10/site-packages/google/cloud/bigquery/job/base.py", line 27, in <module>
+                                                               from google.cloud.bigquery import _helpers
+                                                             File "/layers/google.python.pip/pip/lib/python3.10/site-packages/google/cloud/bigquery/_helpers.py", line 24, in <module>
+                                                               from dateutil import relativedelta
+                                                           ModuleNotFoundError: No module named 'dateutil'
+         hello-gcs                2024-11-19 13:05:31.370  AttributeError: _ARRAY_API not found
+         hello-gcs                2024-11-19 13:05:31.209      import pyarrow.lib as _lib
+         hello-gcs                2024-11-19 13:05:31.209    File "/layers/google.python.pip/pip/lib/python3.10/site-packages/pyarrow/__init__.py", line 65, in <module>
+         hello-gcs                2024-11-19 13:05:31.209      import pyarrow
+         hello-gcs                2024-11-19 13:05:31.209    File "/layers/google.python.pip/pip/lib/python3.10/site-packages/google/cloud/bigquery_storage_v1/reader.py", line 39, in <module>
+         hello-gcs                2024-11-19 13:05:31.209      from google.cloud.bigquery_storage_v1 import reader
+         hello-gcs                2024-11-19 13:05:31.209    File "/layers/google.python.pip/pip/lib/python3.10/site-packages/google/cloud/bigquery_storage_v1/client.py", line 26, in <module>
+         hello-gcs                2024-11-19 13:05:31.209      from google.cloud.bigquery_storage_v1 import client, types
+         hello-gcs                2024-11-19 13:05:31.209    File "/layers/google.python.pip/pip/lib/python3.10/site-packages/google/cloud/bigquery_storage_v1/__init__.py", line 23, in <module>
+         hello-gcs                2024-11-19 13:05:31.209      from google.cloud.bigquery_storage_v1.services.big_query_read.client import (
+         hello-gcs                2024-11-19 13:05:31.209    File "/layers/google.python.pip/pip/lib/python3.10/site-packages/google/cloud/bigquery/client.py", line 60, in <module>
+         hello-gcs                2024-11-19 13:05:31.209      from google.cloud.bigquery.client import Client
+         hello-gcs                2024-11-19 13:05:31.209    File "/layers/google.python.pip/pip/lib/python3.10/site-packages/google/cloud/bigquery/__init__.py", line 35, in <module>
+         hello-gcs                2024-11-19 13:05:31.209      from google.cloud import bigquery

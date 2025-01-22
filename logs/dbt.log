@@ -1,0 +1,104 @@
+[0m16:36:08.017634 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a66a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104d03c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104d10d10>]}
+
+
+============================== 16:36:08.019802 | 6fdf2862-5577-489a-b362-38e3833b908b ==============================
+[0m16:36:08.019802 [info ] [MainThread]: Running with dbt=1.8.7
+[0m16:36:08.020413 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt init', 'no_print': 'None', 'debug': 'False', 'empty': 'None', 'log_cache_events': 'False', 'log_path': 'logs', 'profiles_dir': '/Users/giakhanh/.dbt', 'send_anonymous_usage_stats': 'True', 'log_format': 'default', 'warn_error': 'None', 'use_experimental_parser': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'cache_selected_only': 'False', 'printer_width': '80', 'static_parser': 'True', 'indirect_selection': 'eager', 'quiet': 'False', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'fail_fast': 'False', 'write_json': 'True'}
+[0m16:36:15.854217 [debug] [MainThread]: Starter project path: /opt/anaconda3/envs/dbtdev/lib/python3.11/site-packages/dbt/include/starter_project
+[0m16:36:15.865120 [info ] [MainThread]: 
+Your new dbt project "glamira" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:36:15.865575 [info ] [MainThread]: Setting up your profile.
+[0m16:37:59.235657 [info ] [MainThread]: Profile glamira written to /Users/giakhanh/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:37:59.240116 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 111.26645, "process_user_time": 0.845986, "process_kernel_time": 0.225975, "process_mem_max_rss": "144031744", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m16:37:59.240623 [debug] [MainThread]: Command `dbt init` succeeded at 16:37:59.240552 after 111.27 seconds
+[0m16:37:59.240885 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ce50d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104c86850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1046b6190>]}
+[0m16:37:59.241158 [debug] [MainThread]: Flushing usage events
+[0m16:38:08.641179 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104161110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1108b3a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1108b34d0>]}
+
+
+============================== 16:38:08.643340 | d50d102d-26c9-4f93-9ee7-a5c954dd67e0 ==============================
+[0m16:38:08.643340 [info ] [MainThread]: Running with dbt=1.8.7
+[0m16:38:08.643720 [debug] [MainThread]: running dbt with arguments {'log_path': 'logs', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'debug': 'False', 'invocation_command': 'dbt debug', 'log_cache_events': 'False', 'profiles_dir': '/Users/giakhanh/.dbt', 'no_print': 'None', 'use_experimental_parser': 'False', 'introspect': 'True', 'fail_fast': 'False', 'write_json': 'True', 'cache_selected_only': 'False', 'indirect_selection': 'eager', 'use_colors': 'True', 'quiet': 'False', 'log_format': 'default', 'version_check': 'True', 'printer_width': '80', 'static_parser': 'True', 'target_path': 'None', 'warn_error': 'None', 'empty': 'None'}
+[0m16:38:08.653610 [info ] [MainThread]: dbt version: 1.8.7
+[0m16:38:08.653921 [info ] [MainThread]: python version: 3.11.10
+[0m16:38:08.654110 [info ] [MainThread]: python path: /opt/anaconda3/envs/dbtdev/bin/python3.11
+[0m16:38:08.654266 [info ] [MainThread]: os info: macOS-15.1-arm64-arm-64bit
+[0m16:38:09.052263 [info ] [MainThread]: Using profiles dir at /Users/giakhanh/.dbt
+[0m16:38:09.052741 [info ] [MainThread]: Using profiles.yml file at /Users/giakhanh/.dbt/profiles.yml
+[0m16:38:09.052901 [info ] [MainThread]: Using dbt_project.yml file at /Users/giakhanh/Desktop/Data Engineer/glamira_project/project/dbt_project.yml
+[0m16:38:09.053053 [info ] [MainThread]: adapter type: bigquery
+[0m16:38:09.053188 [info ] [MainThread]: adapter version: 1.8.3
+[0m16:38:09.053335 [info ] [MainThread]: Configuration:
+[0m16:38:09.053463 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m16:38:09.053585 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m16:38:09.053710 [info ] [MainThread]: Required dependencies:
+[0m16:38:09.053902 [debug] [MainThread]: Executing "git --help"
+[0m16:38:09.081979 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:38:09.082592 [debug] [MainThread]: STDERR: "b''"
+[0m16:38:09.082792 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:38:09.082993 [info ] [MainThread]: Connection:
+[0m16:38:09.083232 [info ] [MainThread]:   method: oauth
+[0m16:38:09.083368 [info ] [MainThread]:   database: excellent-well-440808-a7
+[0m16:38:09.083506 [info ] [MainThread]:   execution_project: excellent-well-440808-a7
+[0m16:38:09.083638 [info ] [MainThread]:   schema: glamira
+[0m16:38:09.083766 [info ] [MainThread]:   location: US
+[0m16:38:09.083890 [info ] [MainThread]:   priority: interactive
+[0m16:38:09.084024 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m16:38:09.084148 [info ] [MainThread]:   impersonate_service_account: None
+[0m16:38:09.084277 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m16:38:09.084398 [info ] [MainThread]:   job_retries: 1
+[0m16:38:09.084519 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m16:38:09.084644 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m16:38:09.084769 [info ] [MainThread]:   timeout_seconds: 300
+[0m16:38:09.084893 [info ] [MainThread]:   client_id: None
+[0m16:38:09.085015 [info ] [MainThread]:   token_uri: None
+[0m16:38:09.085132 [info ] [MainThread]:   dataproc_region: None
+[0m16:38:09.085251 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m16:38:09.085369 [info ] [MainThread]:   gcs_bucket: None
+[0m16:38:09.085485 [info ] [MainThread]:   dataproc_batch: None
+[0m16:38:09.085865 [info ] [MainThread]: Registered adapter: bigquery=1.8.3
+[0m16:38:09.148203 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m16:38:09.148658 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:38:18.235129 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: 'Runtime Error
+  Failed to authenticate with supplied credentials
+  error:
+  Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.'
+[0m16:38:18.237358 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m16:38:18.238237 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m16:38:18.238695 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/giakhanh/Desktop/Data Engineer/glamira_project/project/dbt_project.yml> not found
+
+[0m16:38:18.239146 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Runtime Error
+    Failed to authenticate with supplied credentials
+    error:
+    Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m16:38:18.244749 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 9.645898, "process_user_time": 0.88496, "process_kernel_time": 0.222183, "process_mem_max_rss": "147521536", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m16:38:18.245839 [debug] [MainThread]: Command `dbt debug` failed at 16:38:18.245689 after 9.65 seconds
+[0m16:38:18.246343 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m16:38:18.246760 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1108c4610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11083e790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102be1e50>]}
+[0m16:38:18.247238 [debug] [MainThread]: Flushing usage events

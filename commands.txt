@@ -1,0 +1,3 @@
+Copy file to bucket
+gsutil cp '/Users/giakhanh/Desktop/Data Engineer/glamira_project/project/glamira.json' gs://glamira-project-bucket
+

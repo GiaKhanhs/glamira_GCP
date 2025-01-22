@@ -1,0 +1,319 @@
+{
+    "_id": {
+        "$oid": "5ed8cb2bc671fc36b74653ad"
+    },
+    "time_stamp": 1591266092,
+    "ip": "37.170.17.183",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Mobile/15E148 Safari/604.1",
+    "resolution": "375x667",
+    "user_id_db": "502567",
+    "device_id": "beb2cacb-20af-4f05-9c03-c98e54a1b71a",
+    "api_version": "1.0",
+    "store_id": "12",
+    "local_time": "2020-06-04 12:21:27",
+    "show_recommendation": "false",
+    "current_url": "https://www.glamira.fr/glamira-pendant-viktor.html?alloy=yellow-375",
+    "referrer_url": "https://www.glamira.fr/men-s-necklaces/",
+    "email_address": "pereira.vivien@yahoo.fr",
+    "recommendation": false,
+    "utm_source": false,
+    "utm_medium": false,
+    "collection": "view_product_detail",
+    "product_id": "110474",
+    "option": [
+        {
+            "option_label": "alloy",
+            "option_id": "332084",
+            "value_label": "",
+            "value_id": "3279318"
+        },
+        {
+            "option_label": "diamond",
+            "option_id": "",
+            "value_label": "",
+            "value_id": ""
+        }
+    ]
+}
+{
+    "_id": {
+        "$oid": "5ed8cb2b4c9ffc36e828fabe"
+    },
+    "time_stamp": 1591266092,
+    "ip": "194.193.38.240",
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; SM-N960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.96 Mobile Safari/537.36",
+    "resolution": "412x846",
+    "user_id_db": "503390",
+    "device_id": "b2d1024d-a62e-480d-ade8-20cf7f618270",
+    "api_version": "1.0",
+    "store_id": "29",
+    "local_time": "2020-06-04 8:21:27",
+    "show_recommendation": "false",
+    "current_url": "https://www.glamira.com.au/customcheckout/onepage/payment/",
+    "referrer_url": "https://www.glamira.com.au/customcheckout/customer/login/address/1/",
+    "email_address": "Kodyjaden.n@hotmail.com",
+    "collection": "checkout",
+    "order_id": "",
+    "cart_products": [
+        {
+            "product_id": 103324,
+            "amount": 1,
+            "option": [
+                {
+                    "option_label": "diamond",
+                    "option_id": 261151,
+                    "value_label": "Swarovsky Cristall",
+                    "value_id": 2166253
+                },
+                {
+                    "option_label": "alloy",
+                    "option_id": 261154,
+                    "value_label": "Wei\u00dfgold 585",
+                    "value_id": 2166328
+                }
+            ]
+        }
+    ]
+}
+{
+    "_id": {
+        "$oid": "5ed8cb2cfeae1f377811165c"
+    },
+    "time_stamp": 1591266092,
+    "ip": "212.237.237.184",
+    "user_agent": "Mozilla/5.0 (Linux; Android 9; SM-A202F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.96 Mobile Safari/537.36",
+    "resolution": "360x780",
+    "user_id_db": "",
+    "device_id": "b2cf91cd-456b-4bca-a1a7-a73fac8f4038",
+    "api_version": "1.0",
+    "store_id": "8",
+    "local_time": "2020-06-04 12:21:25",
+    "show_recommendation": "false",
+    "current_url": "https://www.glamira.es/alianzas/?gclid=CjwKCAjwt-L2BRA_EiwAacX32XIKXImV_rFgP1XrUgK-tjd9ibaONdePmEkZvIhJvkyD6y_2gbEAPxoCCEAQAvD_BwE",
+    "referrer_url": "https://www.google.com/",
+    "email_address": "",
+    "collection": "view_listing_page",
+    "option": {
+        "alloy": "",
+        "diamond": "",
+        "shapediamond": ""
+    },
+    "cat_id": null,
+    "collect_id": ""
+}
+{
+    "_id": {
+        "$oid": "5ed8cb2a56b3dd3742261b8c"
+    },
+    "time_stamp": 1591266091,
+    "ip": "121.200.6.91",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15",
+    "resolution": "834x1112",
+    "user_id_db": "",
+    "device_id": "6071b84f-dba6-429e-8b6c-11baa0126090",
+    "api_version": "1.0",
+    "store_id": "29",
+    "local_time": "2020-06-04 8:20:4",
+    "show_recommendation": null,
+    "current_url": "https://www.glamira.com.au/glamira-diamonds-ohrstecker-louisa-skug100735.html?alloy=white-585&diamond=diamond-sapphire&gclid=EAIaIQobChMIsKGy3_fn6QIVSA4rCh3xvQ1uEAQYASABEgIYu_D_BwE",
+    "referrer_url": "",
+    "email_address": "",
+    "collection": "select_product_option_quality",
+    "product_id": "85796",
+    "option": [
+        {
+            "option_label": "stone/diamonds",
+            "option_id": "57695",
+            "value_label": "diamond-Brillant",
+            "value_id": "308213",
+            "quality": "A",
+            "quality_label": "I"
+        }
+    ]
+}
+{
+    "_id": {
+        "$oid": "5ed8cb2a796d133700cefa27"
+    },
+    "time_stamp": 1591266091,
+    "ip": "24.133.169.84",
+    "user_agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36",
+    "resolution": "1680x1050",
+    "user_id_db": "",
+    "device_id": "8224d228-4d84-46aa-b6c7-888df1f35af3",
+    "api_version": "1.0",
+    "store_id": "66",
+    "local_time": "2020-06-04 1:21:27",
+    "show_recommendation": "false",
+    "current_url": "https://www.glamira.bg/",
+    "referrer_url": "",
+    "email_address": "",
+    "collection": "view_home_page"
+}
+{
+    "_id": {
+        "$oid": "5ed8cb2a30c31e37302e796f"
+    },
+    "time_stamp": 1591266091,
+    "ip": "78.98.77.225",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36",
+    "resolution": "1536x864",
+    "user_id_db": "",
+    "device_id": "b94d1083-7f38-4f1a-bd68-0ff18bed6fdc",
+    "api_version": "1.0",
+    "store_id": "53",
+    "local_time": "2020-06-04 12:21:27",
+    "show_recommendation": "false",
+    "current_url": "https://www.glamira.sk/zasnubne-prstene/diamant/",
+    "referrer_url": "https://www.glamira.sk/zasnubne-prstene/diamant/",
+    "email_address": "",
+    "collection": "view_listing_page",
+    "option": {
+        "alloy": "",
+        "diamond": "diamond-Brillant",
+        "shapediamond": ""
+    },
+    "cat_id": null,
+    "collect_id": ""
+}
+{
+    "_id": {
+        "$oid": "5ed8cb2a5d4dd036fa17849d"
+    },
+    "time_stamp": 1591266091,
+    "ip": "1.129.104.252",
+    "user_agent": "Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-G977B) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/11.2 Chrome/75.0.3770.143 Mobile Safari/537.36",
+    "resolution": "412x869",
+    "user_id_db": "",
+    "device_id": "f66d68ab-a68e-493f-9a9c-88af60aeb973",
+    "api_version": "1.0",
+    "store_id": "29",
+    "local_time": "2020-06-04 8:21:20",
+    "show_recommendation": null,
+    "current_url": "https://www.glamira.com.au/sense-muse-4-mm.html?alloy=white_red-375&gclid=CjwKCAjwt-L2BRA_EiwAacX32XcmXGbA9nZc_T8tqYJ-booYD9ijzpEafsvYrpmhyKapPlsThjQ6shoCQ4gQAvD_BwE",
+    "referrer_url": "",
+    "email_address": "",
+    "recommendation": false,
+    "utm_source": false,
+    "utm_medium": false,
+    "collection": "view_product_detail",
+    "product_id": "99316",
+    "option": [
+        {
+            "option_label": "alloy",
+            "option_id": "187492",
+            "value_label": "",
+            "value_id": "1488184"
+        },
+        {
+            "option_label": "diamond",
+            "option_id": "",
+            "value_label": "",
+            "value_id": ""
+        }
+    ]
+}
+{
+    "_id": {
+        "$oid": "5ed8cb2be73652372a13128e"
+    },
+    "time_stamp": 1591266091,
+    "ip": "89.204.153.209",
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; Pixel 2 XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.83 Mobile Safari/537.36",
+    "resolution": "412x823",
+    "user_id_db": "",
+    "device_id": "53c83025-7b12-4238-a1f3-c2d73e1b60cd",
+    "api_version": "1.0",
+    "store_id": "6",
+    "local_time": "2020-06-04 12:21:10",
+    "show_recommendation": "false",
+    "current_url": "https://www.glamira.de/glamira-ring-griseus.html?alloy=yellow-585&diamond=ruby&stone2=diamond-Brillant",
+    "referrer_url": "https://www.glamira.de/diamant-verlobungsringe/585-gelb-gold/rubin/flower/",
+    "email_address": "",
+    "collection": "select_product_option_quality",
+    "product_id": "95519",
+    "option": [
+        {
+            "option_label": "stone/diamonds",
+            "option_id": "147021",
+            "value_label": "ruby",
+            "value_id": "1104464",
+            "quality": "AAAA",
+            "quality_label": "AAAA"
+        }
+    ]
+}
+{
+    "_id": {
+        "$oid": "5ed8cb2b71a3b936be93af42"
+    },
+    "time_stamp": 1591266091,
+    "ip": "124.189.45.215",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36",
+    "resolution": "1366x768",
+    "user_id_db": "",
+    "device_id": "f23d4b5b-d896-4fcb-9ece-755d4b02480e",
+    "api_version": "1.0",
+    "store_id": "29",
+    "local_time": "2020-06-04 8:20:48",
+    "show_recommendation": "false",
+    "current_url": "https://www.glamira.com.au/glamira-ring-pamela.html?alloy=white-585&diamond=diamond-Brillant",
+    "referrer_url": "https://www.glamira.com.au/diamond-rings/",
+    "email_address": "",
+    "collection": "product_detail_recommendation_visible",
+    "viewing_product_id": "89454"
+}
+{
+    "_id": {
+        "$oid": "5ed8cb2b34103036e28df46c"
+    },
+    "time_stamp": 1591266091,
+    "ip": "217.122.124.139",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36",
+    "resolution": "1440x900",
+    "user_id_db": "",
+    "device_id": "a5d801f0-891c-4a30-9416-47a469cb012f",
+    "api_version": "1.0",
+    "store_id": "11",
+    "local_time": "2020-06-04 12:16:22",
+    "show_recommendation": "false",
+    "current_url": "https://www.glamira.nl/glamira-pendant-elise.html?diamond=aquamarine&stone2=bluediamond&alloy=red-750",
+    "referrer_url": "https://www.glamira.nl/diamanten-halsketting/aquamarijn/",
+    "email_address": "",
+    "collection": "select_product_option",
+    "product_id": "100034",
+    "option": [
+        {
+            "option_label": "alloy",
+            "option_id": "198911",
+            "value_label": "red-750",
+            "value_id": "1593626"
+        }
+    ]
+}
+{
+    "_id": {
+        "$oid": "5ed8cb2b8000343760050f85"
+    },
+    "time_stamp": 1591266091,
+    "ip": "46.11.35.144",
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; Mi 9 Lite) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.83 Mobile Safari/537.36",
+    "resolution": "393x851",
+    "user_id_db": "",
+    "device_id": "bcae7130-496b-40e7-8496-3a6098ee8203",
+    "api_version": "1.0",
+    "store_id": "36",
+    "local_time": "2020-06-04 12:21:28",
+    "show_recommendation": "false",
+    "current_url": "https://www.glamira.com.mt/men-ring/",
+    "referrer_url": "https://www.glamira.com.mt/home-wedding/?gclid=CjwKCAjwt-L2BRA_EiwAacX32WeJl8FIbkwRwXduqOviUp77xBqG_d4rHGZSjHVMt7DJPIR8iOo-ARoCkDgQAvD_BwE",
+    "email_address": "",
+    "collection": "view_listing_page",
+    "option": {
+        "alloy": "",
+        "diamond": "",
+        "shapediamond": ""
+    },
+    "cat_id": null,
+    "collect_id": ""
+}
